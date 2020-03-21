@@ -9,6 +9,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-161288709-1');
     </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Est-ce qui reste du PQ ?</title>
     <meta name="description" content="Oui. (pour le moment).">
@@ -24,7 +25,7 @@
     <meta property="og:type" content="website">
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-auto p-5 p-md-5">
             <h1 class="text-light bg-dark p-1">Est-ce qui reste du PQ ?</h1>
@@ -35,7 +36,10 @@
             <h2 class="display-1">Oui.</h2>
         </div>
     </div>
+    <div id="chart" style="width: 900px; height: 500px"></div>
 </div>
+<canvas id="myChart" width="400" height="400"></canvas>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.27/bootstrap-native-v4.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
